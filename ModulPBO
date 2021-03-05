@@ -1,0 +1,67 @@
+package modul;
+
+class datamhs 
+{
+    private String name;
+    private String grade;
+    private String major;
+    private String faculty;
+    private String nim;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getGrade() {
+        return grade;
+    }
+
+    public void setGrade(String grade) {
+        this.grade = grade;
+    }
+
+    public String getMajor() {
+        return major;
+    }
+
+    public void setMajor(String major) {
+        this.major = major;
+    }
+
+    public String getFaculty() {
+        return faculty;
+    }
+
+    public void setFaculty(String faculty) {
+        this.faculty = faculty;
+    }
+
+    public String getNim() {
+        return nim;
+    }
+
+    public void setNim(String nim) {
+        this.nim = nim;
+    }
+    
+    public static void main(String[] args)
+    {
+        datamhs niko = new datamhs();
+        
+        niko.setName("Niko Silabest");
+        niko.setGrade("A");
+        niko.setMajor("Informatic Engineering");
+        niko.setFaculty("Engineering");
+        niko.setNim("202010370311216");
+        
+        System.out.println("Student's Name: "+niko.getName());
+        System.out.println("Grade: "+niko.getGrade());
+        System.out.println("Major: "+niko.getMajor());
+        System.out.println("Faculty: "+niko.getFaculty());
+        System.out.println("NIM: "+niko.getNim());
+    }
+}
